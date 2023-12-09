@@ -16,7 +16,7 @@ function renderVenta(prop){
   <div class="col-md-4 mb-4">
     <div class="card">
       <img
-        src="./assets/img/alquiler_1.jpg"
+        src="./assets/img/${prop.src}.jpg"
         class="card-img-top"
         alt="${prop.nombre}"
       />
@@ -46,7 +46,7 @@ function renderAlquiler(prop){
   <div class="col-md-4 mb-4">
     <div class="card">
       <img
-        src="./assets/img/alquiler_1.jpg"
+        src="./assets/img/${prop.src}.jpg"
         class="card-img-top"
         alt="${prop.nombre}"
       />

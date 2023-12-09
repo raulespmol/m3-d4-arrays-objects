@@ -1,8 +1,8 @@
-const container = document.querySelector('#alquiler .row');
+const container = document.querySelector('#venta .row');
 
 let cards = '';
 
-propiedadesAlquiler.forEach(prop => {
+propiedadesVenta.forEach(prop => {
   renderCards(prop)
 })
 
