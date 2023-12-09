@@ -8,6 +8,15 @@
     justify-content: center;
     color: #fff;
     text-align: center;
+    text-shadow: 3px 3px 7px #00000030;
+}
+
+.main-section.alquiler {
+    background-image: url('../img/img-alq.jpg');
+}
+
+.main-section.venta {
+    background-image: url('../img/img-venta.jpg');
 }
 
 .card {
